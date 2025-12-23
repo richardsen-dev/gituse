@@ -1,0 +1,7 @@
+右键git bash生成私钥公钥：
+ssh-keygen -t rsa
+
+
+解决推送代码时could't load this key(openssh ssh-2 private key(old pem format))问题：
+设置->网络
+SSH客户端改为git安装目录C:\Program Files\Git\usr\bin\ssh.exe，原为Tortoise安装目录。
